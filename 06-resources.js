@@ -1,4 +1,4 @@
-angular.module('app'. ['ngResource'])
+angular.module('app', ['ngResource'])
   .factory('CustomerGroup', [
     '$resource',
     function($resource) {
